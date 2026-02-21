@@ -58,7 +58,7 @@ A production-grade multi-chain DeFi portfolio dashboard that tracks your holding
 ### 1. Clone and install
 
 ```bash
-git clone <repo>
+git clone https://github.com/sidx/0xportfolio
 cd 0xportfolio
 npm install
 ```
@@ -72,7 +72,7 @@ cp .env.example .env
 Edit `.env`:
 
 ```env
-DATABASE_URL="postgresql://postgres:password@localhost:5432/oxportfolio"
+DATABASE_URL="postgresql://postgres:password@localhost:5432/0xportfolio"
 ALCHEMY_ETHEREUM_RPC="https://eth-mainnet.g.alchemy.com/v2/YOUR_KEY"
 ALCHEMY_ARBITRUM_RPC="https://arb-mainnet.g.alchemy.com/v2/YOUR_KEY"
 COINGECKO_API_KEY=""          # Optional - leave empty for free tier
